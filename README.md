@@ -1,10 +1,35 @@
-- 👋 Hi, I’m @ismael-kltz 
-- 👀 I’m interested in ...Aprender a programar y obtener nuevos conocimientos
-- 🌱 I’m currently learning ... JavaScript
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# \<api-1>
 
-<!---
-ismael-kltz/ismael-kltz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+
+## Installation
+
+```bash
+npm i api-1
+```
+
+## Usage
+
+```html
+<script type="module">
+  import 'api-1/api-1.js';
+</script>
+
+<api-1></api-1>
+```
+
+
+
+## Tooling configs
+
+For most of the tools, the configuration is in the `package.json` to minimize the amount of files in your project.
+
+If you customize the configuration a lot, you can consider moving them to individual files.
+
+## Local Demo with `web-dev-server`
+
+```bash
+npm start
+```
+
+To run a local development server that serves the basic demo located in `demo/index.html`
